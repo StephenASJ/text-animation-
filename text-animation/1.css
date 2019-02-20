@@ -1,0 +1,30 @@
+body{
+	background-color: #ebf0fa;
+}
+.cont{
+	margin-top: 300px;
+	text-align: center;
+	font-weight: bold;
+	animation: ani 2s infinite alternate;
+}
+@keyframes ani{
+	0%{
+		color: #ff4000;
+	}
+	20%{
+		color: #ffbf00;
+	}
+	40%{
+		color: #80ff00;
+	}
+	60%{
+		color: #8000ff;
+	}
+	80%{
+		color: 	#ff00bf;
+	}
+	100%{
+		color: #ff0040;
+	}
+	
+}
